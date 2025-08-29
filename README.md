@@ -1,1 +1,1 @@
-# FirePropagationSimulator
+# Fire Propagation Simulator
