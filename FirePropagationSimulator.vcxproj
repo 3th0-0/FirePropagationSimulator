@@ -131,7 +131,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Cells.cpp" />
+    <ClCompile Include="Field.cpp" />
+    <ClCompile Include="Fire.cpp" />
     <ClCompile Include="FirePropagationSimulator.cpp" />
+    <ClCompile Include="Tree.cpp" />
+    <ClCompile Include="Wind.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cells.h" />
+    <ClInclude Include="Field.h" />
+    <ClInclude Include="Fire.h" />
+    <ClInclude Include="Tree.h" />
+    <ClInclude Include="Wind.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
